@@ -475,6 +475,7 @@ def main():
 
                     # Clean tweets
                     cleaned_tweets = clean_tweets(translated_tweets)
+                    
 
                     # Analyze sentiment
                     sentiment_scores = get_sentiments(cleaned_tweets)
